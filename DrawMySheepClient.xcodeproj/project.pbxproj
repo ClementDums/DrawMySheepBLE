@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED7484722418CD63006071BC /* DatasetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7484712418CD63006071BC /* DatasetManager.swift */; };
+		ED74847F2418DA2F006071BC /* Benchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7484742418DA2F006071BC /* Benchmark.swift */; };
+		ED7484802418DA2F006071BC /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7484752418DA2F006071BC /* Random.swift */; };
+		ED7484812418DA2F006071BC /* MetalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7484762418DA2F006071BC /* MetalExtensions.swift */; };
+		ED7484822418DA2F006071BC /* StorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7484772418DA2F006071BC /* StorageProtocol.swift */; };
+		ED7484832418DA2F006071BC /* FFNN+Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7484782418DA2F006071BC /* FFNN+Storage.swift */; };
+		ED7484842418DA2F006071BC /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7484792418DA2F006071BC /* Vector.swift */; };
+		ED7484852418DA2F006071BC /* FFNN.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED74847A2418DA2F006071BC /* FFNN.swift */; };
+		ED7484862418DA2F006071BC /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED74847B2418DA2F006071BC /* Operations.swift */; };
+		ED7484872418DA2F006071BC /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED74847C2418DA2F006071BC /* Matrix.swift */; };
+		ED7484882418DA2F006071BC /* MetalNeuralNetworkShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = ED74847D2418DA2F006071BC /* MetalNeuralNetworkShaders.metal */; };
+		ED7484892418DA2F006071BC /* FFNN+Metal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED74847E2418DA2F006071BC /* FFNN+Metal.swift */; };
+		ED8232402417CD1300368852 /* AcceleroShapesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED82323F2417CD1300368852 /* AcceleroShapesManager.swift */; };
+		ED93CA462417BD200068068E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93CA452417BD200068068E /* AppDelegate.swift */; };
+		ED93CA482417BD200068068E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93CA472417BD200068068E /* SceneDelegate.swift */; };
+		ED93CA4A2417BD200068068E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93CA492417BD200068068E /* ViewController.swift */; };
+		ED93CA4D2417BD200068068E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED93CA4B2417BD200068068E /* Main.storyboard */; };
+		ED93CA4F2417BD230068068E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED93CA4E2417BD230068068E /* Assets.xcassets */; };
+		ED93CA522417BD230068068E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED93CA502417BD230068068E /* LaunchScreen.storyboard */; };
+		ED93CA5D2417BD230068068E /* DrawMySheepClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93CA5C2417BD230068068E /* DrawMySheepClientTests.swift */; };
+		ED93CA682417BD230068068E /* DrawMySheepClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93CA672417BD230068068E /* DrawMySheepClientUITests.swift */; };
+		ED93CA772417BE250068068E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93CA762417BE250068068E /* Helpers.swift */; };
+		ED93CA792417BE510068068E /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93CA782417BE510068068E /* BLEManager.swift */; };
+		ED93CA7B2417BF030068068E /* ChatPeripherals.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93CA7A2417BF030068068E /* ChatPeripherals.swift */; };
+		ED93CA7D2417BFF60068068E /* UiViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93CA7C2417BFF60068068E /* UiViewControllerExtension.swift */; };
+		ED93CA7F2417C33D0068068E /* BLEChunker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93CA7E2417C33D0068068E /* BLEChunker.swift */; };
+		ED93CA812417C3B10068068E /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93CA802417C3B10068068E /* ArrayExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED93CA592417BD230068068E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED93CA3A2417BD200068068E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED93CA412417BD200068068E;
+			remoteInfo = DrawMySheepClient;
+		};
+		ED93CA642417BD230068068E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED93CA3A2417BD200068068E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED93CA412417BD200068068E;
+			remoteInfo = DrawMySheepClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED7484712418CD63006071BC /* DatasetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatasetManager.swift; sourceTree = "<group>"; };
+		ED7484742418DA2F006071BC /* Benchmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Benchmark.swift; sourceTree = "<group>"; };
+		ED7484752418DA2F006071BC /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		ED7484762418DA2F006071BC /* MetalExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalExtensions.swift; sourceTree = "<group>"; };
+		ED7484772418DA2F006071BC /* StorageProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageProtocol.swift; sourceTree = "<group>"; };
+		ED7484782418DA2F006071BC /* FFNN+Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FFNN+Storage.swift"; sourceTree = "<group>"; };
+		ED7484792418DA2F006071BC /* Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
+		ED74847A2418DA2F006071BC /* FFNN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFNN.swift; sourceTree = "<group>"; };
+		ED74847B2418DA2F006071BC /* Operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
+		ED74847C2418DA2F006071BC /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		ED74847D2418DA2F006071BC /* MetalNeuralNetworkShaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = MetalNeuralNetworkShaders.metal; sourceTree = "<group>"; };
+		ED74847E2418DA2F006071BC /* FFNN+Metal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FFNN+Metal.swift"; sourceTree = "<group>"; };
+		ED82323F2417CD1300368852 /* AcceleroShapesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceleroShapesManager.swift; sourceTree = "<group>"; };
+		ED93CA422417BD200068068E /* DrawMySheepClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawMySheepClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED93CA452417BD200068068E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED93CA472417BD200068068E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED93CA492417BD200068068E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED93CA4C2417BD200068068E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED93CA4E2417BD230068068E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED93CA512417BD230068068E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED93CA532417BD230068068E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED93CA582417BD230068068E /* DrawMySheepClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawMySheepClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED93CA5C2417BD230068068E /* DrawMySheepClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawMySheepClientTests.swift; sourceTree = "<group>"; };
+		ED93CA5E2417BD230068068E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED93CA632417BD230068068E /* DrawMySheepClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawMySheepClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED93CA672417BD230068068E /* DrawMySheepClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawMySheepClientUITests.swift; sourceTree = "<group>"; };
+		ED93CA692417BD230068068E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED93CA762417BE250068068E /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		ED93CA782417BE510068068E /* BLEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		ED93CA7A2417BF030068068E /* ChatPeripherals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPeripherals.swift; sourceTree = "<group>"; };
+		ED93CA7C2417BFF60068068E /* UiViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiViewControllerExtension.swift; sourceTree = "<group>"; };
+		ED93CA7E2417C33D0068068E /* BLEChunker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEChunker.swift; sourceTree = "<group>"; };
+		ED93CA802417C3B10068068E /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED93CA3F2417BD200068068E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED93CA552417BD230068068E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED93CA602417BD230068068E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED7484732418DA2F006071BC /* FFNN */ = {
+			isa = PBXGroup;
+			children = (
+				ED7484742418DA2F006071BC /* Benchmark.swift */,
+				ED7484752418DA2F006071BC /* Random.swift */,
+				ED7484762418DA2F006071BC /* MetalExtensions.swift */,
+				ED7484772418DA2F006071BC /* StorageProtocol.swift */,
+				ED7484782418DA2F006071BC /* FFNN+Storage.swift */,
+				ED7484792418DA2F006071BC /* Vector.swift */,
+				ED74847A2418DA2F006071BC /* FFNN.swift */,
+				ED74847B2418DA2F006071BC /* Operations.swift */,
+				ED74847C2418DA2F006071BC /* Matrix.swift */,
+				ED74847D2418DA2F006071BC /* MetalNeuralNetworkShaders.metal */,
+				ED74847E2418DA2F006071BC /* FFNN+Metal.swift */,
+			);
+			path = FFNN;
+			sourceTree = "<group>";
+		};
+		ED93CA392417BD200068068E = {
+			isa = PBXGroup;
+			children = (
+				ED93CA442417BD200068068E /* DrawMySheepClient */,
+				ED93CA5B2417BD230068068E /* DrawMySheepClientTests */,
+				ED93CA662417BD230068068E /* DrawMySheepClientUITests */,
+				ED93CA432417BD200068068E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED93CA432417BD200068068E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED93CA422417BD200068068E /* DrawMySheepClient.app */,
+				ED93CA582417BD230068068E /* DrawMySheepClientTests.xctest */,
+				ED93CA632417BD230068068E /* DrawMySheepClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED93CA442417BD200068068E /* DrawMySheepClient */ = {
+			isa = PBXGroup;
+			children = (
+				ED93CA452417BD200068068E /* AppDelegate.swift */,
+				ED93CA472417BD200068068E /* SceneDelegate.swift */,
+				ED93CA782417BE510068068E /* BLEManager.swift */,
+				ED93CA7E2417C33D0068068E /* BLEChunker.swift */,
+				ED93CA802417C3B10068068E /* ArrayExtension.swift */,
+				ED7484732418DA2F006071BC /* FFNN */,
+				ED93CA762417BE250068068E /* Helpers.swift */,
+				ED93CA492417BD200068068E /* ViewController.swift */,
+				ED93CA7C2417BFF60068068E /* UiViewControllerExtension.swift */,
+				ED93CA7A2417BF030068068E /* ChatPeripherals.swift */,
+				ED93CA4B2417BD200068068E /* Main.storyboard */,
+				ED7484712418CD63006071BC /* DatasetManager.swift */,
+				ED82323F2417CD1300368852 /* AcceleroShapesManager.swift */,
+				ED93CA4E2417BD230068068E /* Assets.xcassets */,
+				ED93CA502417BD230068068E /* LaunchScreen.storyboard */,
+				ED93CA532417BD230068068E /* Info.plist */,
+			);
+			path = DrawMySheepClient;
+			sourceTree = "<group>";
+		};
+		ED93CA5B2417BD230068068E /* DrawMySheepClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED93CA5C2417BD230068068E /* DrawMySheepClientTests.swift */,
+				ED93CA5E2417BD230068068E /* Info.plist */,
+			);
+			path = DrawMySheepClientTests;
+			sourceTree = "<group>";
+		};
+		ED93CA662417BD230068068E /* DrawMySheepClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED93CA672417BD230068068E /* DrawMySheepClientUITests.swift */,
+				ED93CA692417BD230068068E /* Info.plist */,
+			);
+			path = DrawMySheepClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED93CA412417BD200068068E /* DrawMySheepClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED93CA6C2417BD230068068E /* Build configuration list for PBXNativeTarget "DrawMySheepClient" */;
+			buildPhases = (
+				ED93CA3E2417BD200068068E /* Sources */,
+				ED93CA3F2417BD200068068E /* Frameworks */,
+				ED93CA402417BD200068068E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawMySheepClient;
+			productName = DrawMySheepClient;
+			productReference = ED93CA422417BD200068068E /* DrawMySheepClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED93CA572417BD230068068E /* DrawMySheepClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED93CA6F2417BD230068068E /* Build configuration list for PBXNativeTarget "DrawMySheepClientTests" */;
+			buildPhases = (
+				ED93CA542417BD230068068E /* Sources */,
+				ED93CA552417BD230068068E /* Frameworks */,
+				ED93CA562417BD230068068E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED93CA5A2417BD230068068E /* PBXTargetDependency */,
+			);
+			name = DrawMySheepClientTests;
+			productName = DrawMySheepClientTests;
+			productReference = ED93CA582417BD230068068E /* DrawMySheepClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED93CA622417BD230068068E /* DrawMySheepClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED93CA722417BD230068068E /* Build configuration list for PBXNativeTarget "DrawMySheepClientUITests" */;
+			buildPhases = (
+				ED93CA5F2417BD230068068E /* Sources */,
+				ED93CA602417BD230068068E /* Frameworks */,
+				ED93CA612417BD230068068E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED93CA652417BD230068068E /* PBXTargetDependency */,
+			);
+			name = DrawMySheepClientUITests;
+			productName = DrawMySheepClientUITests;
+			productReference = ED93CA632417BD230068068E /* DrawMySheepClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED93CA3A2417BD200068068E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = clementdumas;
+				TargetAttributes = {
+					ED93CA412417BD200068068E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					ED93CA572417BD230068068E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = ED93CA412417BD200068068E;
+					};
+					ED93CA622417BD230068068E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = ED93CA412417BD200068068E;
+					};
+				};
+			};
+			buildConfigurationList = ED93CA3D2417BD200068068E /* Build configuration list for PBXProject "DrawMySheepClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED93CA392417BD200068068E;
+			productRefGroup = ED93CA432417BD200068068E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED93CA412417BD200068068E /* DrawMySheepClient */,
+				ED93CA572417BD230068068E /* DrawMySheepClientTests */,
+				ED93CA622417BD230068068E /* DrawMySheepClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED93CA402417BD200068068E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED93CA522417BD230068068E /* LaunchScreen.storyboard in Resources */,
+				ED93CA4F2417BD230068068E /* Assets.xcassets in Resources */,
+				ED93CA4D2417BD200068068E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED93CA562417BD230068068E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED93CA612417BD230068068E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED93CA3E2417BD200068068E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED93CA4A2417BD200068068E /* ViewController.swift in Sources */,
+				ED74847F2418DA2F006071BC /* Benchmark.swift in Sources */,
+				ED7484802418DA2F006071BC /* Random.swift in Sources */,
+				ED93CA462417BD200068068E /* AppDelegate.swift in Sources */,
+				ED7484722418CD63006071BC /* DatasetManager.swift in Sources */,
+				ED7484882418DA2F006071BC /* MetalNeuralNetworkShaders.metal in Sources */,
+				ED7484832418DA2F006071BC /* FFNN+Storage.swift in Sources */,
+				ED7484842418DA2F006071BC /* Vector.swift in Sources */,
+				ED93CA7D2417BFF60068068E /* UiViewControllerExtension.swift in Sources */,
+				ED93CA812417C3B10068068E /* ArrayExtension.swift in Sources */,
+				ED7484862418DA2F006071BC /* Operations.swift in Sources */,
+				ED7484852418DA2F006071BC /* FFNN.swift in Sources */,
+				ED7484822418DA2F006071BC /* StorageProtocol.swift in Sources */,
+				ED7484892418DA2F006071BC /* FFNN+Metal.swift in Sources */,
+				ED93CA792417BE510068068E /* BLEManager.swift in Sources */,
+				ED8232402417CD1300368852 /* AcceleroShapesManager.swift in Sources */,
+				ED93CA7B2417BF030068068E /* ChatPeripherals.swift in Sources */,
+				ED93CA482417BD200068068E /* SceneDelegate.swift in Sources */,
+				ED7484872418DA2F006071BC /* Matrix.swift in Sources */,
+				ED7484812418DA2F006071BC /* MetalExtensions.swift in Sources */,
+				ED93CA7F2417C33D0068068E /* BLEChunker.swift in Sources */,
+				ED93CA772417BE250068068E /* Helpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED93CA542417BD230068068E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED93CA5D2417BD230068068E /* DrawMySheepClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED93CA5F2417BD230068068E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED93CA682417BD230068068E /* DrawMySheepClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED93CA5A2417BD230068068E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED93CA412417BD200068068E /* DrawMySheepClient */;
+			targetProxy = ED93CA592417BD230068068E /* PBXContainerItemProxy */;
+		};
+		ED93CA652417BD230068068E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED93CA412417BD200068068E /* DrawMySheepClient */;
+			targetProxy = ED93CA642417BD230068068E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED93CA4B2417BD200068068E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED93CA4C2417BD200068068E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED93CA502417BD230068068E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED93CA512417BD230068068E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED93CA6A2417BD230068068E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED93CA6B2417BD230068068E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED93CA6D2417BD230068068E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XFGQM7QG6;
+				INFOPLIST_FILE = DrawMySheepClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = clementdumasid.DrawMySheepClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED93CA6E2417BD230068068E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XFGQM7QG6;
+				INFOPLIST_FILE = DrawMySheepClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = clementdumasid.DrawMySheepClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED93CA702417BD230068068E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XFGQM7QG6;
+				INFOPLIST_FILE = DrawMySheepClientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = clementdumasid.DrawMySheepClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawMySheepClient.app/DrawMySheepClient";
+			};
+			name = Debug;
+		};
+		ED93CA712417BD230068068E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XFGQM7QG6;
+				INFOPLIST_FILE = DrawMySheepClientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = clementdumasid.DrawMySheepClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawMySheepClient.app/DrawMySheepClient";
+			};
+			name = Release;
+		};
+		ED93CA732417BD230068068E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XFGQM7QG6;
+				INFOPLIST_FILE = DrawMySheepClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = clementdumasid.DrawMySheepClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrawMySheepClient;
+			};
+			name = Debug;
+		};
+		ED93CA742417BD230068068E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XFGQM7QG6;
+				INFOPLIST_FILE = DrawMySheepClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = clementdumasid.DrawMySheepClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrawMySheepClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED93CA3D2417BD200068068E /* Build configuration list for PBXProject "DrawMySheepClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED93CA6A2417BD230068068E /* Debug */,
+				ED93CA6B2417BD230068068E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED93CA6C2417BD230068068E /* Build configuration list for PBXNativeTarget "DrawMySheepClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED93CA6D2417BD230068068E /* Debug */,
+				ED93CA6E2417BD230068068E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED93CA6F2417BD230068068E /* Build configuration list for PBXNativeTarget "DrawMySheepClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED93CA702417BD230068068E /* Debug */,
+				ED93CA712417BD230068068E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED93CA722417BD230068068E /* Build configuration list for PBXNativeTarget "DrawMySheepClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED93CA732417BD230068068E /* Debug */,
+				ED93CA742417BD230068068E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED93CA3A2417BD200068068E /* Project object */;
+}
